@@ -116,6 +116,11 @@ namespace XmlRefactor
             this.AddWhiteSpace();
             builder.Append("[;]");
         }
+        public void AddORSymbol()
+        {
+            this.AddWhiteSpace();
+            builder.Append("[|][|]");
+        }
         public void AddDoubleColon()
         {
             this.AddWhiteSpace();
