@@ -86,6 +86,7 @@
     <Compile Include="Rules\BPFixers\RuleXMLCommentsDoubleSlash.cs" />
     <Compile Include="Rules\BPFixers\RuleXMLEmptyCommentsCleanUp.cs" />
     <Compile Include="Rules\BPFixers\RuleXMLCommentsCleanUp.cs" />
+    <Compile Include="Rules\CIT\RuleConvertToCheckInTestCases.cs" />
     <Compile Include="Rules\CIT\RuleCheckInTestCases.cs" />
     <Compile Include="Rules\Collectors\RuleCollectObsoleteMetaData.cs" />
     <Compile Include="Rules\Collectors\RuleCollectOverriddingMethodNames.cs" />
